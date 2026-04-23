@@ -1,3 +1,9 @@
+from .flow import FlowAnalyzer
+from .object_detection import ObjectDetector
+from .gestures import GestureRecognizer
+from .activity import ActivityClassifier
+from src.utils.visualization import Renderer
+
 class FrameProcessor:
     def __init__(self):
         # ── Instantiate all sub-modules here ──────────────────────
