@@ -22,4 +22,4 @@ This project builds an end-to-end pipeline that:
 
 ## What makes us different?
 
-Unlike traditional approaches that rely on trained deep learning models, this system uses a hybrid heuristic pipeline combining optical flow, object detection, and rule-based reasoning. This significantly reduces training overhead, lowers deployment cost, and enables real-time execution on edge hardware with minimal domain-specific tuning.
+This pipeline adopts a heuristic approach instead of training custom deep learning or LLM models. By leveraging pre-trained components (YOLO, MediaPipe) combined with rule based reasoning and motion analysis, it eliminates the need for additional training. This significantly reduces cost, enables real-time performance on edge devices, and allows rapid adaptation to domain specific environments with minimal tuning.
