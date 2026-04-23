@@ -51,15 +51,8 @@ pip install -r requirements.txt
 ```
 ## Contributors
 
-Anubhav Suri 
-Manjot Kaur
-Gorisha Soni
+Anubhav Suri
 
+Manjot Kaur:- https://github.com/
 
-
-
-
-
-
-
-
+Gorisha Soni:- https://github.com/Gorisha3
