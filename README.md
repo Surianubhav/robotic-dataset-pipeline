@@ -53,6 +53,6 @@ pip install -r requirements.txt
 
 Anubhav Suri
 
-Manjot Kaur:- https://github.com/
+Manjot Kaur:- https://github.com/ManjotKaur-27
 
 Gorisha Soni:- https://github.com/Gorisha3
