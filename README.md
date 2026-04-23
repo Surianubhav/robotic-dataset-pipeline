@@ -23,3 +23,43 @@ This project builds an end-to-end pipeline that:
 ## What makes us different?
 
 This pipeline adopts a heuristic approach instead of training custom deep learning or LLM models. By leveraging pre-trained components (YOLO, MediaPipe) combined with rule based reasoning and motion analysis, it eliminates the need for additional training. This significantly reduces cost, enables real-time performance on edge devices, and allows rapid adaptation to domain specific environments with minimal tuning.
+
+## Pipeline Overview
+```
+Video Input
+↓
+Optical Flow (Motion Analysis)
+↓
+Object Detection (YOLO)
+↓
+Hand Tracking (MediaPipe)
+↓
+Heuristic Fusion
+↓
+Activity Classification
+↓
+Structured Dataset Output (JSON)
+```
+## Usage
+
+```bash
+python -m src.main --mode video --input sample.mp4
+```
+## Installation
+```bash
+pip install -r requirements.txt
+```
+## Contributors
+
+Anubhav Suri 
+Manjot Kaur
+Gorisha Soni
+
+
+
+
+
+
+
+
+
